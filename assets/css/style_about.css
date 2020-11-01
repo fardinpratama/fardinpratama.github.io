@@ -1,0 +1,117 @@
+
+
+.about {
+    color: #56b84d;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+.img-about #img-top img {
+    width: 27vmax;
+    height: auto;
+}
+
+.main-about {
+    height: auto;
+    margin: 0;
+    margin-top: 25vh;
+    max-width: 100%;
+}
+
+.aboutme {
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.about .short {
+    margin-top: -5px;
+    font-size: 2.2vw;
+    font-weight: 300;
+    color: #0f782e;
+}
+
+.about .short span {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #56b84d;
+}
+
+.about .long {
+    font-family: "Consolas";
+    color: #0f782e;
+    font-size: 1.1vw;
+}
+
+.borders {
+    width: 100%;
+    border-top: .4vh solid #0f782e;
+    padding-top: .8%;
+    margin-top: 2%;
+}
+
+.borders #email {
+    font-weight: 400;
+    color: #0f782e;
+    font-size: 1.3vw;
+}
+
+.borders #email a {
+    color: #0f782e;
+    font-weight: 300;
+}
+
+.borders #cv {
+    text-transform: uppercase;
+    font-size: .9vw;
+    text-align: right;
+    font-weight: 500;
+}
+
+.borders #cv a {
+    color: #0f782e
+}
+
+.borders #cv a span {
+    display: inline-block;
+    border: 1px solid #56b84d;
+    padding: 2% 3%;
+}
+
+.borders #cv a span:hover {
+    background-color: #ffda81;
+    border: 1px solid #ffda81;
+    transition: .5s;
+}
+
+
+
+@media (max-width: 576px) {
+
+
+    .aboutme {
+        font-size: 4vh;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    .about .short {
+        font-size: 1.8vh;
+    }
+
+    .about .long {
+        margin-top: 2%;
+        font-size: 1vh;
+    }
+
+    .borders {
+        margin-top: -2%;
+        border-top: .5vw solid #0f782e;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .borders #email {
+        padding: 0;
+    }
+}

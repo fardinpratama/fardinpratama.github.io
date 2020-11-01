@@ -1,0 +1,204 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+.project {
+    color: #56b84d;
+    max-width: 100%;
+    font-family: "Roboto";
+    height: 100%;
+    position: relative;
+}
+
+.project-img #img-top img {
+    width: 27vmax;
+    height: auto;
+}
+
+.project-data {
+    margin: 0;
+    margin-top: 18vh;
+    max-width: 100%;
+}
+
+#head .title {
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+#head p {
+    margin-top: -1%;
+    font-family: "Consolas";
+    font-size: 1.1rem;
+    color: #0f782e;
+}
+
+.menu {
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu li {
+    float: left;
+    margin: 0;
+    margin-right: .5%;
+    border: 1.9px solid #ffda81;
+
+}
+
+.menu li.active .disabled {
+    color: #0f782e;
+}
+
+.menu li.active {
+    background-color: #ffda81;
+}
+
+.menu a {
+    color: #0f782e;
+    font-size: .8rem;
+    padding: .3vw;
+}
+
+
+#content {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.artikel {
+    max-width: 540px;
+    background-color: transparent;
+    border: none;
+    font-family: "Roboto";
+    font-family: 2rem;
+    color: #0f782e;
+}
+
+
+
+.artikel .card-body {
+    padding-top: 1%;
+}
+
+.artikel h5 {
+    color: #0f782e;
+}
+
+.artikel .card-body span {
+    display: inline-block;
+    margin-top: -10%;
+    background-color: #ffda81;
+    font-size: .8rem;
+    padding: 1% 2%;
+}
+
+
+
+#footer {
+    font-family: "Roboto regular";
+    margin: 0;
+    color: #0f782e;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#footer .col-sm-8 {
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+#footer h5 {
+    font-family: "Roboto Black";
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#footer p {
+    margin-bottom: -.5%;
+    font-size: .7em;
+    font-weight: 300;
+}
+
+#footer span {
+    margin-top: -10%;
+    font-size: .9rem;
+    font-weight: 600;
+
+}
+
+@media (max-width: 768px) {
+
+    .project-data {
+        margin: 0;
+        position: relative;
+    }
+
+    #head .title {
+        font-size: 8vw;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .project-data {
+        margin: 0;
+        position: relative;
+        margin-top: 20vh;
+    }
+
+    #head p {
+        font-size: 3vw;
+    }
+
+    .menu li {
+        margin-top: 1%;
+        margin-right: 1%;
+    }
+
+    .menu a {
+        font-size: 2.5vw;
+    }
+
+
+
+    .artikel .card-body {
+        text-align: center;
+        border-bottom: 1px solid rgba(15, 120, 46, .2);
+    }
+
+    .artikel .card-body h5 {
+        margin-top: 2%;
+        font-size: 4vw;
+        margin-bottom: -1%;
+    }
+
+    .artikel .card-body span {
+        font-size: 2.5vw;
+    }
+
+    #footer {
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .artikel img {
+        box-shadow: -2px 2px 2px rgba(0, 0, 0, .4);
+    }
+}

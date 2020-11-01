@@ -1,0 +1,86 @@
+.arrow .text {
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+
+    .arrow .text {
+        visibility: visible;
+        top: -55%;
+        bottom: 0;
+        font-family: "Roboto Light";
+        position: relative;
+        color: transparent;
+        font-size: 1vw;
+        /* left: 0;
+        right: 0; */
+        display: inline-block;
+    }
+
+    /* arrow */
+    .arrow {
+        position: fixed;
+        width: 100%;
+        top: 45%;
+        right: 0;
+    }
+
+
+    .arrow #backward .text {
+        left: 15%;
+    }
+
+    .arrow #forward .text {
+        right: 15%;
+    }
+
+    .demo-arrow-cls {
+        display: inline-block;
+        width: 3.5vw;
+        height: 3.5vw;
+        background: transparent;
+        text-indent: -9999px;
+        border-top: 1px solid #56b84d;
+        border-left: 1px solid #56b84d;
+        transition: all .3s ease-in-out;
+        text-decoration: none;
+
+    }
+
+
+
+    .demo-arrow-cls:hover+.text {
+        color: #0f782e;
+        opacity: .3;
+        transition: all .5s;
+    }
+
+    .demo-arrow-cls:hover {
+        border-color: #0f782e;
+        border-width: 2px;
+    }
+
+
+
+    .demo-arrow-cls:before {
+        display: block;
+        height: 200%;
+        width: 200%;
+        margin-left: -50%;
+        margin-top: -50%;
+        content: "";
+        transform: rotate(45deg);
+    }
+
+
+
+    .demo-arrow-cls.back {
+        transform: rotate(-45deg);
+        left: 0;
+    }
+
+    .demo-arrow-cls.forward {
+        transform: rotate(140deg);
+        right: 0;
+    }
+}
