@@ -60,7 +60,7 @@ body {
 }
 
 .intro {
-    font-family: 'Consolas';
+    font-family: Consolas;
     color: #0f782e;
     font-size: 1.8vw;
     font-weight: 200;
@@ -80,7 +80,7 @@ body {
 }
 
 .footer #socmed p {
-    font-family: "Consolas";
+    font-family: Consolas;
     margin-left: 2%;
     margin-bottom: 0%;
     color: #0f782e;
@@ -115,7 +115,7 @@ body {
     height: 40px;
     white-space: nowrap;
     overflow: hidden;
-    font-family: 'Consolas', monospace;
+    font-family: Consolas, monospace;
     font-size: 28px;
     color: #0f782e;
     position: relative;
