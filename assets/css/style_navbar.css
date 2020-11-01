@@ -2,6 +2,7 @@
 #navbar {
     position: absolute;
     z-index: 99999;
+    right: 0;
 }
 
 #navbar .row {
@@ -16,15 +17,15 @@
 }
 
 #toggle:focus~.toggle-container .button-toggle {
-    box-shadow: 0 0 0 8px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6);
+    box-shadow: 0 0 0 8px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8);
 }
 
 #toggle:checked~.toggle-container .button-toggle {
-    box-shadow: 0 0 0 556px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6);
+    box-shadow: 0 0 0 556px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8);
 }
 
 #toggle:checked~.toggle-container .button-toggle:hover {
-    box-shadow: 0 0 0 550px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6), 0 0 0 8px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6);
+    box-shadow: 0 0 0 550px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8), 0 0 0 8px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8);
 }
 
 #toggle:checked~.toggle-container .button-toggle:before {
@@ -38,7 +39,7 @@
 }
 
 #toggle:checked:focus~.toggle-container .button-toggle {
-    box-shadow: 0 0 0 550px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6), 0 0 0 8px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6);
+    box-shadow: 0 0 0 550px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8), 0 0 0 8px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8);
 }
 
 #toggle:checked~.nav {
@@ -127,7 +128,7 @@
 }
 
 .button-toggle:hover {
-    box-shadow: 0 0 0 20px rgba(255, 218, 129, 0.6), inset 0 0 0 20px rgba(255, 218, 129, 0.6);
+    box-shadow: 0 0 0 20px rgba(255, 218, 129, 0.8), inset 0 0 0 20px rgba(255, 218, 129, 0.8);
 }
 
 .button-toggle:before,

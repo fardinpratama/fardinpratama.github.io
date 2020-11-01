@@ -12,8 +12,6 @@
         position: relative;
         color: transparent;
         font-size: 1vw;
-        /* left: 0;
-        right: 0; */
         display: inline-block;
     }
 
@@ -23,6 +21,7 @@
         width: 100%;
         top: 45%;
         right: 0;
+        z-index: 1000000;
     }
 
 
@@ -79,7 +78,7 @@
         left: 0;
     }
 
-    .demo-arrow-cls.forward {
+    .demo-arrow-cls.next {
         transform: rotate(140deg);
         right: 0;
     }
