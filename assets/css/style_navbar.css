@@ -1,15 +1,12 @@
 /* navbar */
 #navbar {
     position: absolute;
-    z-index: 99999;
     right: 0;
-}
-
-#navbar .row {
-    float: right;
-    margin-right: 1%;
+    margin: 0;
+    margin-right: 2vw;
     font-family: "Roboto Black";
 }
+
 
 /* Toggle functionality */
 #toggle {
