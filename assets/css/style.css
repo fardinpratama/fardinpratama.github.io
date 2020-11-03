@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: #e9ebed;
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 
@@ -52,9 +52,7 @@ body {
     margin: 0;
     padding-top: 30vh;
     max-width: 100%;
-
 }
-
 
 .hello {
     color: #56b84d;
@@ -63,11 +61,6 @@ body {
     font-family: "Roboto Black";
 }
 
-@media (max-width: 768px) {
-    .hello {
-        font-size: 15vw;
-    }
-}
 
 .intro {
     font-family: Consolas;
@@ -79,11 +72,6 @@ body {
 
 }
 
-@media (max-width: 768px) {
-    .intro {
-        font-size: 2.5vw;
-    }
-}
 
 
 .footer {
@@ -117,27 +105,12 @@ body {
 }
 
 .footer #socmed .icon .cols a {
-    margin: 1.5vw;
+    margin: 1.5vw 1.4vw;
     color: #0f782e;
     display: block;
-    font-family: "Roboto";
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 1.2vw;
-}
-
-@media (max-width: 768px) {
-    .footer #socmed p {
-        font-size: 1.5vw
-    }
-
-    .footer #socmed .icon .cols a {
-        font-size: 1.5vw;
-    }
-
-    .footer #socmed .icon .cols {
-        margin-right: 1px;
-
-    }
 }
 
 
@@ -191,3 +164,61 @@ body {
         border-bottom-color: transparent;
     }
 }
+
+/* design for smartphone potrait */
+@media (max-width: 576px) {
+    .hello {
+        font-size: 15vw;
+    }
+
+    .intro {
+        font-size: 2.5vw;
+    }
+
+    .footer #socmed p {
+        font-size: 1.5vw
+    }
+
+
+    .footer #socmed .icon .cols a {
+        font-size: 1.5vw;
+    }
+
+    .footer #socmed .icon .cols {
+        margin-right: 1px;
+
+    }
+}
+
+/* design for smatphone lanscape */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hello {
+        font-size: 15vw;
+    }
+
+    .intro {
+        font-size: 2.5vw;
+    }
+
+    .footer #socmed p {
+        font-size: 1.5vw
+    }
+
+
+    .footer #socmed .icon .cols a {
+        font-size: 1.5vw;
+    }
+
+    .footer #socmed .icon .cols {
+        margin-right: 1px;
+
+    }
+}
+
+/* design for tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* design for desktop */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-home {}

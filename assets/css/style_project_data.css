@@ -1,18 +1,8 @@
-html {
-    height: 100%;
-}
-
-body {
-    width: 100%;
-    min-height: 100%;
-}
-
 .project {
     color: #56b84d;
     max-width: 100%;
-    font-family: "Roboto";
-    height: 100%;
-    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
 }
 
 .project-img #img-top img {
@@ -21,11 +11,12 @@ body {
 }
 
 .project-data {
+    height: auto;
     margin: 0;
-    margin-top: 18vh;
+    padding-top: 7vh;
     max-width: 100%;
-    z-index: -1;
 }
+
 
 #head .title {
     font-size: 3vw;
@@ -84,7 +75,6 @@ body {
 }
 
 
-
 .artikel .card-body {
     padding-top: 1%;
 }
@@ -105,20 +95,11 @@ body {
 
 #footer {
     font-family: "Roboto regular";
-    margin: 0;
     color: #0f782e;
     text-align: center;
     max-width: 100%;
-    position: relative;
     bottom: 0;
-    right: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-#footer .col-sm-8 {
-    /* position: absolute; */
-    /* bottom: 0; */
+    margin-top: 10%;
 }
 
 #footer h5 {
@@ -140,31 +121,23 @@ body {
 
 }
 
-@media (max-width: 768px) {
-
+/* design for smartphone potrait */
+@media (max-width: 576px) {
     .project-data {
-        margin: 0;
-        position: relative;
+        margin-right: 0;
+        padding-top: 22vh;
     }
 
     #head .title {
-        font-size: 8vw;
+        font-size: 6vw;
         font-weight: 700;
     }
 
-}
-
-@media (max-width: 576px) {
-
-    .project-data {
-        margin: 0;
-        position: relative;
-        margin-top: 20vh;
-    }
-
     #head p {
-        font-size: 3vw;
+        margin-top: -1%;
+        font-size: .6rem;
     }
+
 
     .menu li {
         margin-top: 1%;
@@ -175,31 +148,31 @@ body {
         font-size: 2.5vw;
     }
 
-
-
-    .artikel .card-body {
+    .card-body {
         text-align: center;
-        border-bottom: 1px solid rgba(15, 120, 46, .2);
     }
 
-    .artikel .card-body h5 {
-        margin-top: 2%;
-        font-size: 4vw;
-        margin-bottom: -1%;
-    }
+}
 
-    .artikel .card-body span {
-        font-size: 2.5vw;
-    }
+/* design for smatphone lanscape */
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
-    #footer {
-        margin: 0;
+/* design for tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .project-data {
+        margin-right: 0;
+        padding-top: 22vh;
     }
 }
 
+/* design for desktop */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .project-data {
+        padding-top: 15vh;
+    }
 
-@media (min-width: 576px) {
-    .artikel img {
-        box-shadow: -2px 2px 2px rgba(0, 0, 0, .4);
+    .project-img #img-top img {
+        width: 70%;
+        height: auto;
     }
 }

@@ -19,24 +19,23 @@
 
 <body>
 
+  <div class="container-fluid">
   <!-- image background -->
   <div class="img-bg img-about">
     <div id="img-top">
       <img src="assets/image/top_left.png" alt="">
     </div>
   </div>
-
-
-<div class="about">
-    <div class="row">
-      <div class="col" id="navbar">
-            <!-- navbar -->
-        <div class="row" >
-          <input id="toggle" type="checkbox">
+  <!-- end image background -->
+  
+  <div class="about">
+      <!-- navbar -->
+      <div class="row" id="navbar">
+        <input id="toggle" type="checkbox">
           <label class="toggle-container" for="toggle">
             <span class="button button-toggle"></span>
           </label>
-  
+
           <!-- The nav menu -->
           <nav class="nav">
             <a class="nav-item" href="index.html">Home</a>
@@ -44,69 +43,66 @@
             <a class="nav-item" href="port_python.html">Project Python</a>
             <a class="nav-item" href="about.html">About</a>
           </nav>
+      </div>
+      <!-- end navbar -->
+
+      <!-- arrow -->
+      <div class="row justify-content-between arrow">
+      <div class="col-1" id="backward">
+        <a href="port_python.html" class="demo-arrow-cls back"></a>
+        <span class="text">Project</span>
+      </div>
+      <div class="col-1" id="forward"  style="visibility: hidden;">
+        <a href="port_data.html" class="demo-arrow-cls next"></a>
+        <span class="text">Project</span>
+      </div>
+      </div>
+      <!-- end arrow -->
+
+      <!-- main -->
+      <div class="row justify-content-end align-items-end main-about">
+        <div class="col-sm-9 ">
+            <div class="row mr-0 ml-0 mb-1">
+                <div class="col-sm-5 title">
+                    <h1 >about me</h1>
+                </div>
+            </div>
+            <div class="row mr-0 ml-0">
+                <div class="col-sm-5 short">
+                    <span>
+                        I'm Fardin Pratama
+                        Yudha,</span> a python
+                        programmer and data
+                        Enthusiast.
+                </div>
+                <div class="col-sm-7 long">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas venenatis mi, 
+                        quis suscipit felis efficitur id. Suspendisse et porta ipsum, ac vehicula odio.
+                        Praesent rhoncus, urna sed blandit porttitor,
+                    </p>
+                    <p>
+                        Etiam ut turpis in leo pellentesque dapibus vehicula tincidunt dui. Phasellus ut velit 
+                        malesuada, vehicula justo et, pulvinar ipsum. 
+                    </p>
+                </div>
+            </div>
+          
+            <div class="row justify-content-between borders mr-0 ml-0 mt-0">
+                <div class="col-7" id="email">
+                  <span>E-mail me:  <a href="#">fardinpratama14@gmail.com</a></span>
+                </div>
+                <div class="col-4" id="cv">
+                  <a href="#"><span>View my CV</span></a>
+                </div>
+              </div>
+
         </div>
+      
       </div>
-    </div>
+      <!-- end main -->
 
-     <!-- arrow -->
-  <div class="row justify-content-between arrow">
-    <div class="col-1" id="backward">
-      <a href="port_python.html" class="demo-arrow-cls back"></a>
-      <span class="text">Project</span>
-    </div>
-    <div class="col-1" id="forward"  style="visibility: hidden;">
-      <a href="#" class="demo-arrow-cls next"></a>
-      <span class="text">Project</span>
-    </div>
-  </div>
-  <!-- end arrow -->
-
-
-<!-- main -->
-<div class="row justify-content-end align-items-end main-about">
-  
-  <div class="col-sm-10">
-      <div class="row">
-          <div class="col-sm-5">
-              <h1 class="aboutme">about me</h1>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-sm-4 short">
-              <span>
-                  I'm Fardin Pratama<br>
-                  Yudha,</span> a python <br>
-                  programmer and data<br>
-                  Enthusiast.
-          </div>
-          <div class="col-sm-7 long">
-              <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas venenatis mi, 
-                  quis suscipit felis efficitur id. Suspendisse et porta ipsum, ac vehicula odio.
-                   Praesent rhoncus, urna sed blandit porttitor,
-              </p>
-              <p>
-                  Etiam ut turpis in leo pellentesque dapibus vehicula tincidunt dui. Phasellus ut velit 
-                  malesuada, vehicula justo et, pulvinar ipsum. 
-              </p>
-          </div>
-      </div>
-    
-      <div class="row justify-content-between borders">
-          <div class="col-7" id="email">
-            <span>E-mail me:  <a href="#">fardinpratama14@gmail.com</a></span>
-          </div>
-          <div class="col-4" id="cv">
-            <a href="#"><span>View my CV</span></a>
-          </div>
-        </div>
-
-  </div>
- 
-</div>
-<!-- end main -->
-
-  <!-- Footer -->
+        <!-- Footer -->
   <div class="row footer">
     <div class="col-8 mr-auto" id="socmed">
       <p>Follow me</p>
@@ -127,8 +123,11 @@
     </div>
   </div>
 
+  </div>
 
-</div>
+
+  </div>
+
 
   
 

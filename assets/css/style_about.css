@@ -1,5 +1,3 @@
-
-
 .about {
     color: #56b84d;
     font-family: "Roboto";
@@ -14,11 +12,12 @@
 .main-about {
     height: auto;
     margin: 0;
-    margin-top: 25vh;
+    padding-top: 7vh;
     max-width: 100%;
+    margin-right: 4vw;
 }
 
-.aboutme {
+.title h1 {
     font-size: 4vw;
     font-weight: 700;
     margin-bottom: 1%;
@@ -29,6 +28,7 @@
     font-size: 2.2vw;
     font-weight: 300;
     color: #0f782e;
+    padding-right: 0;
 }
 
 .about .short span {
@@ -41,13 +41,16 @@
     font-family: Consolas;
     color: #0f782e;
     font-size: 1.1vw;
+    padding-left: 0;
+    text-align: justify;
 }
 
 .borders {
     width: 100%;
-    border-top: .4vh solid #0f782e;
+    border-top: 2px solid #0f782e;
     padding-top: .8%;
     margin-top: 2%;
+    margin-right: 0;
 }
 
 .borders #email {
@@ -66,6 +69,7 @@
     font-size: .9vw;
     text-align: right;
     font-weight: 500;
+    z-index: 99999;
 }
 
 .borders #cv a {
@@ -86,22 +90,39 @@
 
 
 
+
+
+
+/* design for smartphone potrait */
 @media (max-width: 576px) {
+    .title {
+        padding-left: 0;
+    }
 
-
-    .aboutme {
+    .title h1 {
         font-size: 4vh;
         font-weight: 700;
         margin-bottom: 0;
+
+    }
+
+    .main-about {
+        margin-right: 0;
+        padding-top: 22vh;
     }
 
     .about .short {
         font-size: 1.8vh;
+        padding-left: 0;
     }
 
     .about .long {
         margin-top: 2%;
-        font-size: 1vh;
+        font-size: 1.3vh;
+    }
+
+    .about .long p {
+        margin-bottom: 1vh;
     }
 
     .borders {
@@ -113,5 +134,28 @@
 
     .borders #email {
         padding: 0;
+        font-size: 1.1vh;
+    }
+
+    .borders #cv {
+        font-size: .8vh;
+    }
+}
+
+/* design for smatphone lanscape */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* design for tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* design for desktop */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-about {
+        padding-top: 15vh;
+    }
+
+    .img-about #img-top img {
+        width: 70%;
+        height: auto;
     }
 }
