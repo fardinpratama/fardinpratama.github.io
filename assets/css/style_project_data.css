@@ -166,6 +166,10 @@
         padding-top: 22vh;
     }
 
+    .card-body {
+        text-align: center;
+    }
+
     #head .title {
         font-size: 4vw;
         font-weight: 700;
