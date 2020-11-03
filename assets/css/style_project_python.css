@@ -314,3 +314,17 @@
         height: auto;
     }
 }
+
+/* lanscape desktop */
+
+@media (min-width: 1200px) {
+    .project-python {
+        padding-top: 15vh;
+    }
+
+    .project-img #img-top img {
+        width: 70%;
+        height: auto;
+    }
+
+}

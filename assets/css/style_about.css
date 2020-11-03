@@ -176,4 +176,17 @@
         width: 70%;
         height: auto;
     }
+
+
+}
+
+@media (min-width: 1200px) {
+    .main-about {
+        padding-top: 15vh;
+    }
+
+    .img-about #img-top img {
+        width: 70%;
+        height: auto;
+    }
 }
