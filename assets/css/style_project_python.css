@@ -195,25 +195,14 @@
 
 }
 
-@media (max-width: 768px) {
 
-    #head .title {
-        font-size: 8vw;
-        font-weight: 700;
-    }
 
-    #footer {
-        margin-top: 10%;
-    }
-}
 
+
+
+
+/* design for smartphone potrait */
 @media (max-width: 576px) {
-
-    .project-python {
-        /* margin: 0;
-        left: 10vw;
-        position: relative; */
-    }
 
     #head p {
         font-size: 3vw;
@@ -251,16 +240,7 @@
         margin-top: 10%;
         min-height: 100%;
     }
-}
 
-
-@media (max-width: 1024px) {
-    .project-python {}
-}
-
-
-/* design for smartphone potrait */
-@media (max-width: 576px) {
     .project-python {
         margin-right: 0;
         padding-top: 22vh;
@@ -289,7 +269,26 @@
 }
 
 /* design for smatphone lanscape */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .project-python {
+        margin-right: 0;
+        padding-top: 22vh;
+    }
+
+    #head .title {
+        font-size: 4vw;
+        font-weight: 700;
+    }
+
+    #head p {
+        font-size: 1rem;
+
+    }
+
+    #footer {
+        margin-top: 10%;
+    }
+}
 
 /* design for tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
